@@ -47,4 +47,7 @@ window.addEventListener('resize', () => {
   adaptWidthToFontSize();
 });
 
-
+document.body.style.display = 'none';
+window.onload = () => {
+  document.body.style.display = 'block';
+};
