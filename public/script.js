@@ -48,6 +48,6 @@ window.addEventListener('resize', () => {
 });
 
 document.body.style.display = 'none';
-window.onload = () => {
+document.body.onload = () => {
   document.body.style.display = 'block';
 };
