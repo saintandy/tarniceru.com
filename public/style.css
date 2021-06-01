@@ -31,6 +31,9 @@ body {
 .name-container {
   font-size: 5.8em;
   font-weight: 700;
+  text-align: center;
+  word-break: break-word;
+  max-width: 100%;
 }
 
 .description {
@@ -62,4 +65,8 @@ body {
 
 .social-bubble:hover {
   background: rgba(255, 255, 255, 0.2);
+}
+
+a {
+    color: inherit;
 }
